@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { SparklesText } from "@/components/ui/sparkles-text";
+import { Separator } from "@/components/ui/separator";
 
 export default function Header() {
   return (
@@ -13,10 +14,14 @@ export default function Header() {
           className="m-10 rounded-full"
         />
         <div className="flex flex-col justify-center items-center">
-          <SparklesText className="text-[#2A2A2A] m-10">
+          <SparklesText className="text-[#2A2A2A] m-4">
             Verity Boyd
           </SparklesText>
           <h2 className="text-2xl">Software Development Student</h2>
+          <p className="m-4 text-lg">
+            An upcoming SAIT Software Development graduate inspired by projects
+            that blend creativity, data and imagination.
+          </p>
         </div>
       </div>
     </section>
