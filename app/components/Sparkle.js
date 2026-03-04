@@ -1,13 +1,13 @@
 import { Icon } from "@iconify/react";
 
-export default function Sparkle({ skill }) {
+export default function Sparkle({ skill, sparkleColour }) {
   return (
     <li className="flex flex-row items-start gap-3">
       <Icon
         icon="pixelarticons:sparkle"
         width="22"
         height="22"
-        className="text-[#A07CFE]"
+        className={sparkleColour}
       />
       {skill}
     </li>

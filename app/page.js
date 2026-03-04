@@ -12,6 +12,7 @@ export default function Page() {
         <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
       </header>
       <About />
+      <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
     </main>
   );
 }
