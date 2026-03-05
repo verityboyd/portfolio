@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import { Separator } from "@/components/ui/separator";
+import Footer from "./components/Footer";
 
 //todo- make all components responsive on big/little screens etc
 
@@ -20,6 +21,8 @@ export default function Page() {
       <Projects />
       <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
       <Resume />
+      <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
+      <Footer />
     </main>
   );
 }
