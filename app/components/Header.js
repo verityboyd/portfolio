@@ -31,7 +31,7 @@ export default function Header() {
                 icon="memory:email"
                 width="22"
                 height="22"
-                className="text-[#A07CFE] hover:animate-bounce ease-in-out delay-150"
+                className="text-[#A07CFE] hover:scale-110 transition"
               />
             </Link>
             <Link href="https://github.com/verityboyd" target="_blank">

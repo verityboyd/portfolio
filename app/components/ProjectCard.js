@@ -35,12 +35,12 @@ export default function ProjectCard({
       <CardFooter>
         <div className="flex flex-row justify-center items-center gap-5 w-full">
           <Link href={vercelLink}>
-            <Button className="bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]">
+            <Button className="bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5] hover:scale-105 transition-transform">
               Visit
             </Button>
           </Link>
           <Link href={ghLink}>
-            <Button className="bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]">
+            <Button className="bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]  hover:scale-105 transition-transform">
               GitHub
             </Button>
           </Link>
