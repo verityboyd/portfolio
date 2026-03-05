@@ -1,6 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { SparklesText } from "@/components/ui/sparkles-text";
-import { Separator } from "@/components/ui/separator";
+import { Icon } from "@iconify/react";
+
+//todo - make sure animations are off for people who have reduced motion switch on. maybe change animations idk
 
 export default function Header() {
   return (
@@ -22,6 +25,32 @@ export default function Header() {
             An upcoming SAIT Software Development graduate inspired by projects
             that blend creativity, data and imagination.
           </p>
+          <div className="flex flex-row items-center w-30 justify-between">
+            <Link href="mailto:verityboyd@outlook.com">
+              <Icon
+                icon="memory:email"
+                width="22"
+                height="22"
+                className="text-[#A07CFE] hover:animate-bounce ease-in-out delay-150"
+              />
+            </Link>
+            <Link href="https://github.com/verityboyd" target="_blank">
+              <Icon
+                icon="dinkie-icons:github"
+                width="22"
+                height="22"
+                className="text-[#FE8FB5] hover:animate-spin"
+              />
+            </Link>
+            <Link href="https://www.linkedin.com/in/verityb/" target="_blank">
+              <Icon
+                icon="streamline-pixel:logo-linkedin"
+                width="22"
+                height="22"
+                className="text-[#A07CFE] hover:animate-pulse"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </section>

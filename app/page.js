@@ -1,7 +1,11 @@
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 import { Separator } from "@/components/ui/separator";
+
+//todo- make all components responsive on big/little screens etc
 
 export default function Page() {
   return (
@@ -13,6 +17,9 @@ export default function Page() {
       </header>
       <About />
       <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
+      <Projects />
+      <Separator className="max-w-7xl mx-auto bg-gradient-to-r from-[#A07CFE] to-[#FE8FB5]" />
+      <Resume />
     </main>
   );
 }
