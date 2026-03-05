@@ -1,9 +1,7 @@
-import { Icon } from "@iconify/react";
-
-export default function Timeline({ icon, date, title, desc }) {
+export default function Timeline({ circleColour, date, title, desc }) {
   return (
     <li className="relative -ms-1.5 flex items-start gap-4">
-      <Icon icon={icon} />
+      <span className={`size-3 shrink-0 rounded-full ${circleColour}`}></span>
 
       <div className="-mt-2">
         <time className="text-m/none font-medium text-gray-700">{date}</time>
