@@ -1,5 +1,4 @@
-import { Icon } from "@iconify/react";
-import Sparkle from "./Sparkle";
+import Sparkle from "@/app/components/features/Sparkle";
 
 export default function About() {
   return (

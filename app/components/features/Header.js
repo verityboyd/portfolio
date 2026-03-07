@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SparklesText } from "@/components/ui/sparkles-text";
+import { SparklesText } from "@/app/components/ui/sparkles-text";
 import { Icon } from "@iconify/react";
 
 //todo - make sure animations are off for people who have reduced motion switch on. maybe change animations idk
 
 export default function Header() {
   return (
-    <section>
-      <div className="flex flex-row items-center justify-center gap-x-10">
+    <section className="pb-10">
+      <div className="md:flex md:flex-row flex flex-col items-center justify-center gap-x-10">
         <Image
           src="/assets/profile5.jpg"
           alt="An image of Verity (the author of this page) smiling in a cafe."
@@ -21,7 +21,7 @@ export default function Header() {
             Verity Boyd
           </SparklesText>
           <h2 className="text-2xl">Software Development Student</h2>
-          <p className="m-4 text-lg">
+          <p className="m-4 text-lg text-center">
             An upcoming SAIT Software Development graduate inspired by projects
             that blend creativity, data and imagination.
           </p>

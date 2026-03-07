@@ -1,4 +1,4 @@
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/app/components/ui/separator";
 //todo - make navbar fixed/sticky when scrolling
 export default function Navbar() {
   return (

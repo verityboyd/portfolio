@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section className="flex flex-col items-center my-10">
       <h3 className="m-2 pb-6 text-3xl">My Projects</h3>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="md:grid md:grid-cols-3 md:gap-8">
         <ProjectCard
           stack="Front-End"
           title="Happy Birthday, Mum!"

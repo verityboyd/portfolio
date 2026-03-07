@@ -1,4 +1,4 @@
-import Timeline from "./Timeline";
+import Timeline from "@/app/components/features/Timeline";
 
 export default function Resume() {
   return (

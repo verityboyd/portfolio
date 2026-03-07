@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Resume from "./components/Resume";
-import { Separator } from "@/components/ui/separator";
-import Footer from "./components/Footer";
+import Header from "@/app/components/features/Header";
+import Navbar from "@/app/components/features/Navbar";
+import About from "@/app/components/features/About";
+import Projects from "@/app/components/features/Projects";
+import Resume from "@/app/components/features/Resume";
+import { Separator } from "@/app/components/ui/separator";
+import Footer from "@/app/components/features/Footer";
 
 //todo- make all components responsive on big/little screens etc
 //- make nav navigate

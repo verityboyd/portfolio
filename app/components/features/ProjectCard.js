@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import {
   Card,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/app/components/ui/card";
 import Link from "next/link";
 
 export default function ProjectCard({
@@ -19,7 +19,7 @@ export default function ProjectCard({
 }) {
   return (
     <Card
-      className="relative mx-auto w-full max-w-sm pt-0 rounded-lg overflow-hidden"
+      className="relative mx-auto w-full max-w-sm pt-0 rounded-lg overflow-hidden mb-5"
       style={{ borderColor }}
     >
       <img
