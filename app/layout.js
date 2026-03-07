@@ -15,7 +15,7 @@ export const metadata = {
   title: "Verity Boyd's Portfolio",
   description: "Junior Software Developer",
   icons: {
-    icon: "favicon.png",
+    icon: "/favicon.png",
   },
 };
 

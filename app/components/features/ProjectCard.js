@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/app/components/ui/card";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ProjectCard({
   title,
@@ -22,11 +23,14 @@ export default function ProjectCard({
       className="relative mx-auto w-full max-w-sm pt-0 rounded-lg overflow-hidden mb-5"
       style={{ borderColor }}
     >
-      <img
+      <Image
         src={imgUrl}
         alt={imgAlt}
-        className="aspect-video w-full object-cover dark:brightness-40"
+        width={800}
+        height={450}
+        className="w-full aspect-video object-cover dark:brightness-40"
       />
+
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
