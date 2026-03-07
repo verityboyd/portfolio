@@ -2,19 +2,42 @@ import Sparkle from "@/app/components/features/Sparkle";
 
 export default function About() {
   return (
-    <section className="flex flex-row justify-evenly m-5 pt-5 pb-15">
-      <div className="flex flex-col">
-        <h3 className="text-3xl m-2 pb-4">About</h3>
-        <p>Bio goes here</p>
+    <section className="flex flex-col md:flex-row md:items-start md:justify-evenly justify-center items-center m-5 pt-5 pb-15">
+      <div className="flex flex-col max-w-lg">
+        <h3 className="text-3xl m-2 pb-4 text-center font-semibold">About</h3>
+        <p className="p-2 mt-2">
+          Hello! I&apos;m Verity, a third-semester Software Development student
+          at SAIT who loves blending creativity with code.
+        </p>
+        <p className="p-2">
+          I first discovered the joys of coding as a child while personalising
+          pet pages on Neopets.com in HTML and CSS. After a career detour
+          through banking and the arts, I&apos;ve found my way back!
+        </p>
+        <p className="p-2 mb-5">
+          I&apos;ll be looking for opportunities starting September 2026, and
+          I&apos;m excited to bring my <strong>curiosity</strong>,{" "}
+          <strong>creativity,</strong> <strong>communication skills</strong>,
+          and <strong>detail-oriented mindset</strong> into a development team.
+        </p>
       </div>
       <div className="flex flex-col">
-        <h3 className="text-3xl m-2 pb-4">Skills</h3>
-        <ul>
-          <Sparkle skill="Skill 1" sparkleColour="text-[#A07CFE]" />
-          <Sparkle skill="Skill 2" sparkleColour="text-[#FE8FB5]" />
-          <Sparkle skill="Skill 3" sparkleColour="text-[#A07CFE]" />
-          <Sparkle skill="Skill 4" sparkleColour="text-[#FE8FB5]" />
-        </ul>
+        <h3 className="text-3xl m-2 pb-4 text-center font-semibold">Skills</h3>
+        <div>
+          <div>
+            <ul className="mt-2">
+              <Sparkle skill="JavaScript" sparkleColour="text-[#A07CFE]" />
+              <Sparkle skill="React" sparkleColour="text-[#FE8FB5]" />
+              <Sparkle skill="Next.js" sparkleColour="text-[#A07CFE]" />
+              <Sparkle skill="Tailwind CSS" sparkleColour="text-[#FE8FB5]" />
+              <Sparkle skill="Java" sparkleColour="text-[#A07CFE]" />
+              <Sparkle skill="Python" sparkleColour="text-[#FE8FB5]" />
+              <Sparkle skill="SQL / PL/SQL" sparkleColour="text-[#A07CFE]" />
+              <Sparkle skill="C#" sparkleColour="text-[#FE8FB5]" />
+              <Sparkle skill="Git / GitHub" sparkleColour="text-[#A07CFE]" />
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );
