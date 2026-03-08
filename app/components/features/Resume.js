@@ -7,7 +7,8 @@ export default function Resume() {
       <h3 className="text-3xl m-2 pb-15 font-semibold">My Resume</h3>
       <ol
         className="relative space-y-8 mx-auto 
-        max-w-2xl before:absolute before:-ms-px before:h-full before:w-0.5 before:rounded-full before:bg-[#FE8FB5]"
+        max-w-2xl before:absolute before:-ms-px before:h-full before:w-0.5 before:rounded-full before:bg-[linear-gradient(to_bottom,#A07CFE,#FE8FB5)]
+"
       >
         <Timeline
           circleColour="bg-[#A07CFE]"
