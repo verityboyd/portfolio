@@ -4,8 +4,11 @@ import { Button } from "@/app/components/ui/button";
 export default function Resume() {
   return (
     <section className="flex flex-col justify-center items-center p-10">
-      <h3 className="text-3xl m-2 pb-10 font-semibold">My Resume</h3>
-      <ol className="relative space-y-8 before:absolute before:-ms-px before:h-full before:w-0.5 before:rounded-full before:bg-[#FE8FB5]">
+      <h3 className="text-3xl m-2 pb-15 font-semibold">My Resume</h3>
+      <ol
+        className="relative space-y-8 mx-auto 
+        max-w-2xl before:absolute before:-ms-px before:h-full before:w-0.5 before:rounded-full before:bg-[#FE8FB5]"
+      >
         <Timeline
           circleColour="bg-[#A07CFE]"
           date="January 2025 - August 2026 (Expected)"
