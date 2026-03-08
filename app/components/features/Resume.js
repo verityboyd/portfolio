@@ -45,7 +45,7 @@ export default function Resume() {
           desc="Handling of sensitive and urgent client and business financial data, innovation of banking hall processes, extreme attention to detail and building of client relationships."
         />
       </ol>
-      <div className="pt-15">
+      <div className="pt-20 pb-10">
         <a href="/VBResume032026.pdf" target="_blank" rel="noopener noreferrer">
           <Button className="bg-linear-to-r from-[#A07CFE] to-[#FE8FB5] py-5 text-lg hover:scale-105 transition-transform">
             See Full Resume

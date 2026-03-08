@@ -2,9 +2,9 @@ import Sparkle from "@/app/components/features/Sparkle";
 
 export default function About() {
   return (
-    <section className="flex flex-col md:flex-row md:items-start md:justify-evenly justify-center items-center m-5 pt-5 pb-15">
+    <section className="flex flex-col md:flex-row md:items-start md:justify-evenly justify-center items-center m-5 pt-10 pb-15">
       <div className="flex flex-col max-w-lg">
-        <h3 className="text-3xl m-2 pb-4 text-center font-semibold">About</h3>
+        <h3 className="text-3xl m-2 pb-10 text-center font-semibold">About</h3>
         <p className="p-2 mt-2">
           Hello! I&apos;m Verity, a third-semester Software Development student
           at SAIT who loves blending creativity with code.
@@ -22,7 +22,7 @@ export default function About() {
         </p>
       </div>
       <div className="flex flex-col">
-        <h3 className="text-3xl m-2 pb-4 text-center font-semibold">Skills</h3>
+        <h3 className="text-3xl m-2 pb-10 text-center font-semibold">Skills</h3>
         <div>
           <div>
             <ul className="mt-2">
