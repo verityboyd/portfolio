@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 
 export default function Header() {
   return (
-    <section className="pb-10">
+    <section id="home" className="pb-10">
       <div className="md:flex md:flex-row flex flex-col items-center justify-center gap-x-10">
         <Image
           src="/assets/profile5.jpg"

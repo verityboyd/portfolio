@@ -6,12 +6,10 @@ import Resume from "@/app/components/features/Resume";
 import { Separator } from "@/app/components/ui/separator";
 import Footer from "@/app/components/features/Footer";
 
-//todo- make all components responsive on big/little screens etc
-//- make nav navigate
 //ensure accessibility, ensure light and dark mode everywhere works
-//add little pop up thing in bottom right hand corner to push you back to top of page?
-//add contact form at the bottom?
-//todo - put all components in one folder, ui and features
+//add little pop up thing in bottom right hand corner to push you back to top of page. material ui fab?
+//add scale or underline or some sort of hover effect to navbar links when hovered or clicked.
+//fix projects nav
 
 export default function Page() {
   return (

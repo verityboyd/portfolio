@@ -1,15 +1,16 @@
 import { Separator } from "@/app/components/ui/separator";
+import Link from "next/link";
 //todo - make navbar fixed/sticky when scrolling
 export default function Navbar() {
   return (
     <nav className="flex h-5 justify-center items-center gap-4 text-lg mt-5 mb-15">
-      <div>Home</div>
+      <Link href="#home">Home</Link>
       <Separator orientation="vertical" className="bg-[#A07CFE]" />
-      <div>About</div>
+      <Link href="#about">About</Link>
       <Separator orientation="vertical" className="bg-[#FE8FB5]" />
-      <div>Projects</div>
+      <Link href="#projects">Projects</Link>
       <Separator orientation="vertical" className="bg-[#A07CFE]" />
-      <div>Resume</div>
+      <Link href="#resume">Resume</Link>
     </nav>
   );
 }

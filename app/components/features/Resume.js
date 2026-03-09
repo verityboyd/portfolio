@@ -3,7 +3,10 @@ import { Button } from "@/app/components/ui/button";
 
 export default function Resume() {
   return (
-    <section className="flex flex-col justify-center items-center p-10">
+    <section
+      id="resume"
+      className="flex flex-col justify-center items-center p-10"
+    >
       <h3 className="text-3xl m-2 pb-15 font-semibold">My Resume</h3>
       <ol
         className="relative space-y-8 mx-auto 
