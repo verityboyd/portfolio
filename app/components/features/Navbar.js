@@ -1,6 +1,6 @@
 import { Separator } from "@/app/components/ui/separator";
 import Link from "next/link";
-//todo - make navbar fixed/sticky when scrolling
+
 export default function Navbar() {
   return (
     <nav
