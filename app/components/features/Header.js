@@ -26,7 +26,7 @@ export default function Header() {
             An upcoming SAIT Software Development graduate inspired by projects
             that blend creativity, data and imagination.
           </p>
-          <div className="py-2 flex flex-row items-center w-30 justify-between">
+          <div className="py-2 flex flex-row items-center w-40 justify-between">
             <Link href="mailto:verityboyd@outlook.com">
               <Icon
                 icon="memory:email"
