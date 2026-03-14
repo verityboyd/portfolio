@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 
 export default function Header() {
   return (
-    <section id="home" className="pb-10">
+    <section className="pb-10">
       <div className="md:flex md:flex-row flex flex-col items-center justify-center gap-x-10">
         <Image
           src="/assets/profile5.jpg"
@@ -25,7 +25,7 @@ export default function Header() {
             An upcoming SAIT Software Development graduate inspired by projects
             that blend creativity, data and imagination.
           </p>
-          <div className="flex flex-row items-center w-30 justify-between">
+          <div className="py-2 flex flex-row items-center w-30 justify-between">
             <Link href="mailto:verityboyd@outlook.com">
               <Icon
                 icon="memory:email"

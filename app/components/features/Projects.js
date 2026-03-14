@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col items-center my-10">
+    <section id="projects" className="flex flex-col items-center my-10">
       <h3 className="m-2 pb-10 text-3xl font-semibold">My Projects</h3>
       <div className="pt-5 pb-5 md:grid md:grid-cols-3 md:gap-8">
         <ProjectCard
