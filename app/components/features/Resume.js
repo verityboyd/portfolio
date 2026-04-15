@@ -50,7 +50,11 @@ export default function Resume() {
         />
       </ol>
       <div className="pt-20 pb-10">
-        <a href="/VBResume032026.pdf" target="_blank" rel="noopener noreferrer">
+        <a
+          href="/VBResumeSDFocus032026.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button className="bg-linear-to-r from-[#A07CFE] to-[#FE8FB5] py-5 text-lg hover:scale-105 transition-transform hover:cursor-pointer">
             See Full Resume
           </Button>

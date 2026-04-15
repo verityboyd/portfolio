@@ -8,9 +8,6 @@ import Footer from "@/app/components/features/Footer";
 import TopButton from "./components/features/TopButton";
 
 //ensure light and dark mode everywhere works
-//add little pop up thing in bottom right hand corner to push you back to top of page. material ui fab?
-//add scale or underline or some sort of hover effect to navbar links when hovered or clicked.
-//fix projects nav
 //the best projects should be indistinguishable from magic
 
 export default function Page() {
