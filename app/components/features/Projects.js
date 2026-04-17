@@ -13,12 +13,12 @@ export default function Projects() {
           imgUrl="/assets/mmscreenshot.png"
           borderColor="#A07CFE"
           ghLink="https://github.com/verityboyd/magicmonitor"
-          vercelLink=""
+          vercelLink="https://magicmonitor-vb.vercel.app/"
         />
         <ProjectCard
           stack="React, Next.js, Tailwind CSS"
           title="Happy Birthday, Mum!"
-          description="A storybook-style trip down memory lane for my Mum's 64th birthday. Sent across the miles to give her a smile on the day. Built with React."
+          description="A storybook-style trip down memory lane for my Mum's 64th birthday. Sent across the miles to give her a smile on the day. Built with React & Tailwind CSS."
           imgAlt="A preview of the first page of the website"
           imgUrl="/assets/mumbday.png"
           borderColor="#A07CFE"
