@@ -9,8 +9,8 @@ export default function About() {
       <div className="flex flex-col max-w-lg">
         <h3 className="text-3xl m-2 pb-10 text-center font-semibold">About</h3>
         <p className="p-2 mt-2">
-          Hello! I&apos;m Verity, a third-semester Software Development student
-          at SAIT who loves blending creativity with code.
+          Hello! I&apos;m Verity, an upcoming Software Development graduate at
+          SAIT who loves blending creativity with code.
         </p>
         <p className="p-2">
           I first discovered the joys of coding as a child while personalising
@@ -18,7 +18,7 @@ export default function About() {
           through banking and the arts, I&apos;ve found my way back!
         </p>
         <p className="p-2 mb-5">
-          I&apos;ll be looking for opportunities starting September 2026, and
+          I&apos;ll be looking for opportunities starting August 2026, and
           I&apos;m excited to bring my <strong>curiosity</strong>,{" "}
           <strong>creativity,</strong> <strong>communication skills</strong>,
           and <strong>detail-oriented mindset</strong> into a development team.

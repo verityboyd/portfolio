@@ -18,7 +18,7 @@ export default function Header() {
           loading="eager"
         />
         <div className="flex flex-col justify-center items-center">
-          <SparklesText className="text-[#2A2A2A] m-4">
+          <SparklesText className="text-[#2A2A2A] dark:text-white m-4">
             Verity Boyd
           </SparklesText>
           <h2 className="text-2xl">Software Development Student</h2>
