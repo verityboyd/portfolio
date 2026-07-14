@@ -23,8 +23,8 @@ export default function Header() {
           </SparklesText>
           <h2 className="text-2xl">Software Development Student</h2>
           <p className="m-4 text-lg text-center">
-            An upcoming SAIT Software Development graduate inspired by projects
-            that blend creativity, data and imagination.
+            An upcoming SAIT Software Development graduate driven by workplace
+            innovation and a commitment to client excellence.
           </p>
           <div className="py-2 flex flex-row items-center w-40 justify-between">
             <Link href="mailto:verityboyd@outlook.com">
